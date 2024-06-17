@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Ti</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Para Ti</h1>
+        <div class="video-container">
+            <video controls>
+                <source src="video/videoale.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de video.
+            </video>
+        </div>
+        <p>Hey mi Pudín, he creado esta página porque es la única forma de que sepas que estoy contigo y recordarte lo especial que eres para mí. Espero que podamos encontrar la tranquilidad juntos.</p>
+
+        <button id="playMusic">Reproduceme❤️</button>
+
+        <div class="song-list">
+            <h2>Canciones que me recuerdan a ti</h2>
+            <ul>
+                <li>
+                    <span class="song-title">✴️</span>
+                    <button class="play-song" data-src="music/cancion1.mp3">Reproducir</button>
+                    <button class="pause-song" data-src="music/cancion1.mp3" style="display: none;">Pausar</button>
+                </li>
+                <li>
+                    <span class="song-title">👼</span>
+                    <button class="play-song" data-src="music/cancion2.mp3">Reproducir</button>
+                    <button class="pause-song" data-src="music/cancion2.mp3" style="display: none;">Pausar</button>
+                </li>
+                <li>
+                    <span class="song-title">👸</span>
+                    <button class="play-song" data-src="music/cancion3.mp3">Reproducir</button>
+                    <button class="pause-song" data-src="music/cancion3.mp3" style="display: none;">Pausar</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="floatingMessage">La sesanción de rozar  tus labios con los miós siempre va ser lo que más ame en esta Tierra.</div>
+    <script src="js/script.js"></script>
+
+    <a id="pagina2" href="index1.html">Ábreme</a>
+</body>
+</html>

@@ -1,0 +1,92 @@
+/* styles.css */
+body {
+    background-color: #1b1b1b;
+    background-image: url('/img/tulipanes.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ecf0f1;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 800px;
+    background-color: rgba(34, 34, 34, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    margin: 20px;
+}
+
+/* Estilo de la cabecera */
+h1 {
+    color: rgba(185, 132, 45, 0.842);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo de los párrafos */
+.text-section p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+    color: #ecf0f1;
+}
+
+/* Sección de fotos */
+.photos-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Estilo de las fotos */
+.photo {
+    width: 20%;
+    text-align: center;
+}
+
+/* Efecto en las fotos */
+.photo img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.photo img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.3);
+}
+
+/* Estilo del pie de foto */
+.photo .caption {
+    margin-top: 10px;
+    color: #bdc3c7;
+    font-style: italic;
+}
+
+/* Estilo polaroid */
+.polaroid {
+    background: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.polaroid img {
+    border-radius: 0;
+}
+
+.polaroid:hover {
+    transform: rotate(-2deg) scale(1.05);
+}

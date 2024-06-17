@@ -1,0 +1,126 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px; /* Asegura que haya espacio alrededor del contenido */
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%; /* Asegura que el contenedor ocupe todo el espacio disponible */
+    margin: auto;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #5a9;
+}
+
+.video-container {
+    margin: 20px 0;
+}
+
+video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #5a9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4a8;
+}
+
+.song-list {
+    margin-top: 30px;
+}
+
+.song-list h2 {
+    color: #5a9;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.song-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.song-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: rgba(240, 248, 255, 0.8);
+    border-radius: 5px;
+}
+
+.song-title {
+    font-size: 1.2em;
+    flex-grow: 1;
+}
+
+.play-song {
+    padding: 8px 15px;
+    font-size: 0.9em;
+    color: white;
+    background-color: #5a9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.play-song:hover {
+    background-color: #4a8;
+}
+
+#floatingMessage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+    text-align: center;
+    font-size: 1.2em;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
