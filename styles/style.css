@@ -1,7 +1,7 @@
 /* styles.css */
 body {
     background-color: #1b1b1b;
-    background-image: url('/img/tulipanes.jpg');
+    background-image: url('img/tulipanes.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     color: #ecf0f1;
